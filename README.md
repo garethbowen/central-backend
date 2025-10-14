@@ -32,8 +32,9 @@ We provide a full documentation of the API in the standard [OpenAPI](https://www
 
 1. Install Node.js 20 (other versions will not work).
 2. Install PostgreSQL 14 (older versions will not work).
-3. Set up the database. This can be done manually (see "Setting up the database manually"), or by running `make run-docker-postgres` if you have Docker installed.
-4. Go to the repository root in a command line (where this README is) and run `make` with no arguments. This will install all npm dependencies and run all necessary migrations on the database; see the [makefile](Makefile) for details.
+3. Run `npm ci`
+4. Set up the database. This can be done manually (see "Setting up the database manually"), or by running `make run-docker-postgres` if you have Docker installed.
+5. Go to the repository root in a command line (where this README is) and run `make` with no arguments. This will install all npm dependencies and run all necessary migrations on the database; see the [makefile](Makefile) for details.
 
 Setup is now complete.
 
